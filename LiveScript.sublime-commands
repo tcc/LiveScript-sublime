@@ -1,0 +1,38 @@
+[
+	{
+		"caption": "LiveScript: Check Syntax"
+	,	"command": "ls_check_syntax"
+	}
+,	{
+		"caption": "LiveScript: Run Script"
+	,	"command": "ls_run_script"
+	}
+,	{
+		"caption": "LiveScript: Run Cake Task"
+	,	"command": "ls_run_cake_task"
+	}
+,	{
+		"caption": "LiveScript: Compile File"
+	,	"command": "ls_compile"
+	}
+,	{
+		"caption": "LiveScript: Display JavaScript"
+	,	"command": "ls_compile_and_display", "args": {"opt": "-cp"}
+	}
+,	{
+		"caption": "LiveScript: Display Lexer Tokens"
+	,	"command": "ls_compile_and_display", "args": {"opt": "-t"}
+	}
+,	{
+		"caption": "LiveScript: Display Parse Tree"
+	,	"command": "ls_compile_and_display", "args": {"opt": "-a"}
+	}
+,	{
+		"caption": "LiveScript: Toggle Watch Mode"
+	,	"command": "toggle_watch"
+	}
+,	{
+		"caption": "LiveScript: Toggle Output Panel"
+	,	"command": "toggle_output_panel"
+	}
+]
